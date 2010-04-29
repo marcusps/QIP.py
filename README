@@ -1,0 +1,4 @@
+This is a simple library for performing quantum information processing
+(QIP) calculations using NumPy/SciPy.
+
+It is still in its larval state.
