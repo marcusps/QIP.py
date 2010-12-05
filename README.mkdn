@@ -1,0 +1,37 @@
+This is a simple library for performing quantum information processing
+(QIP) calculations using NumPy/SciPy.
+
+It is still in its larval state.
+
++ qip
+
+  defines the functions
+
+  - ket
+  - bra
+  - commutator
+
++ qip.pauli: 
+
+  defines the matrices id, x, y and z as well as the functions
+
+  - string2pauli
+  - num2pauli  
+
++ qip.open_systems:
+
+  defines the functions
+
+  - vec
+  - vecinv
+  - liou 
+  - kraus2liou
+  - choi2liou
+  - dissipator
+  - hamiltonian
+  - dual
+
+  it needs
+
+  - kket  
+  - bbra
